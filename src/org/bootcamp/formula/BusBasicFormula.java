@@ -1,4 +1,7 @@
-package org.bootcamp;
+package org.bootcamp.formula;
+
+import org.bootcamp.formula.Formula;
+import org.bootcamp.vehicle.Vehicle;
 
 public final class BusBasicFormula implements Formula {
     @Override
