@@ -8,3 +8,8 @@ env:
 
 after_success:
   - mvn deploy --settings settings.xml
+
+deploy:
+    provider: releases
+    api_key: "RJEeYq5KPCnM-IF4eWzkpw"
+    skip_cleanup: true
