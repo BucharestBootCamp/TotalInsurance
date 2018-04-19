@@ -1,3 +1,4 @@
+<settings>
 <servers>
 	<server>
 		<id>maven-adro-java-dev-bootcamp-snapshot-local</id>
@@ -5,3 +6,5 @@
 		<password>${env.BUCBOOT_PASSWORD}</password>
 	</server>
 </servers>
+
+</settings>
