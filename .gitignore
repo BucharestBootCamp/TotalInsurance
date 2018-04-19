@@ -11,3 +11,6 @@ out
 
 # OS X Specific files
 .DS_Store
+
+# Maven build
+target
