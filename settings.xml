@@ -1,10 +1,7 @@
 <servers>
 	<server>
-		<!-- Maven Hosted Deployment -->
-		<id>maven-adro-java-dev-bootcamp-snapshot-local
-</id>
+		<id>maven-adro-java-dev-bootcamp-snapshot-local</id>
 		<username>bucboot</username>
 		<password>${env.BUCBOOT_PASSWORD}</password>
 	</server>
 </servers>
-

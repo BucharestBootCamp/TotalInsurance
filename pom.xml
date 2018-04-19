@@ -8,7 +8,12 @@
     <artifactId>total-insurance</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <distributionManagement>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>uw2010012238138.corp.adobe.com-snapshots</name>
+            <url>https://artifactory-uw2.adobeitc.com/artifactory/maven-adro-java-dev-bootcamp-snapshot</url>
+        </snapshotRepository>
+    </distributionManagement>
 
-
-    
 </project>
