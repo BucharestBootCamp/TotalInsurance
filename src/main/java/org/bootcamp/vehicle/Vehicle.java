@@ -18,20 +18,20 @@ public abstract class Vehicle {
         return age;
     }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
-
     public long getNumberOfMiles() {
         return numberOfMiles;
     }
 
-    public void setNumberOfMiles(long numberOfMiles) {
-        this.numberOfMiles = numberOfMiles;
-    }
-
     public boolean isDiesel() {
         return isDiesel;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setNumberOfMiles(long numberOfMiles) {
+        this.numberOfMiles = numberOfMiles;
     }
 
     public void setDiesel(boolean diesel) {
