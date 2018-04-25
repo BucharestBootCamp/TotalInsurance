@@ -6,7 +6,7 @@
 
     <groupId>org.bootcamp</groupId>
     <artifactId>total-insurance</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>war</packaging>
 
     <properties>
@@ -76,9 +76,14 @@
     <distributionManagement>
         <snapshotRepository>
             <id>maven-adro-java-dev-bootcamp-snapshot-local</id>
-            <name>uw2010012238138.corp.adobe.com-snapshots</name>
+            <name>Snapshots</name>
             <url>https://artifactory-uw2.adobeitc.com/artifactory/maven-adro-java-dev-bootcamp-snapshot</url>
         </snapshotRepository>
+        <repository>
+            <id>maven-adro-java-dev-bootcamp-releases</id>
+            <name>Releases</name>
+            <url>https://artifactory-uw2.adobeitc.com/artifactory/maven-adro-java-dev-bootcamp-release</url>
+        </repository>
     </distributionManagement>
 
 </project>

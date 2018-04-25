@@ -1,10 +1,14 @@
 <settings>
-<servers>
-	<server>
-		<id>maven-adro-java-dev-bootcamp-snapshot-local</id>
-		<username>bucboot</username>
-		<password>${env.BUCBOOT_PASSWORD}</password>
-	</server>
-</servers>
-
+    <servers>
+        <server>
+            <id>maven-adro-java-dev-bootcamp-snapshot-local</id>
+            <username>bucboot</username>
+            <password>${env.BUCBOOT_PASSWORD}</password>
+        </server>
+        <server>
+            <id>maven-adro-java-dev-bootcamp-releases</id>
+            <username>bucboot</username>
+            <password>${env.BUCBOOT_PASSWORD}</password>
+        </server>
+    </servers>
 </settings>
