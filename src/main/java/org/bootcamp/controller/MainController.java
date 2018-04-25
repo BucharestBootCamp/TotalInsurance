@@ -29,7 +29,7 @@ public class MainController {
 
     @GetMapping(produces = {MediaType.TEXT_HTML_VALUE})
     public String welcome() {
-        return "<h1>Welcome to Total Insurance Andrei Oprisan</h1>";
+        return "<h1>It Worked! Congratulations!</h1>";
     }
 
     @GetMapping(value = "calculate", produces = {MediaType.APPLICATION_JSON_VALUE})
